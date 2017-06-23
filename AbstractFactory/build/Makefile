@@ -123,6 +123,60 @@ AbstractFactory/fast:
 	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/build
 .PHONY : AbstractFactory/fast
 
+concrete_factory_a.o: concrete_factory_a.cpp.o
+
+.PHONY : concrete_factory_a.o
+
+# target to build an object file
+concrete_factory_a.cpp.o:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/concrete_factory_a.cpp.o
+.PHONY : concrete_factory_a.cpp.o
+
+concrete_factory_a.i: concrete_factory_a.cpp.i
+
+.PHONY : concrete_factory_a.i
+
+# target to preprocess a source file
+concrete_factory_a.cpp.i:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/concrete_factory_a.cpp.i
+.PHONY : concrete_factory_a.cpp.i
+
+concrete_factory_a.s: concrete_factory_a.cpp.s
+
+.PHONY : concrete_factory_a.s
+
+# target to generate assembly for a file
+concrete_factory_a.cpp.s:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/concrete_factory_a.cpp.s
+.PHONY : concrete_factory_a.cpp.s
+
+concrete_factory_b.o: concrete_factory_b.cpp.o
+
+.PHONY : concrete_factory_b.o
+
+# target to build an object file
+concrete_factory_b.cpp.o:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/concrete_factory_b.cpp.o
+.PHONY : concrete_factory_b.cpp.o
+
+concrete_factory_b.i: concrete_factory_b.cpp.i
+
+.PHONY : concrete_factory_b.i
+
+# target to preprocess a source file
+concrete_factory_b.cpp.i:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/concrete_factory_b.cpp.i
+.PHONY : concrete_factory_b.cpp.i
+
+concrete_factory_b.s: concrete_factory_b.cpp.s
+
+.PHONY : concrete_factory_b.s
+
+# target to generate assembly for a file
+concrete_factory_b.cpp.s:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/concrete_factory_b.cpp.s
+.PHONY : concrete_factory_b.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,114 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+product_a_type_1.o: product_a_type_1.cpp.o
+
+.PHONY : product_a_type_1.o
+
+# target to build an object file
+product_a_type_1.cpp.o:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_a_type_1.cpp.o
+.PHONY : product_a_type_1.cpp.o
+
+product_a_type_1.i: product_a_type_1.cpp.i
+
+.PHONY : product_a_type_1.i
+
+# target to preprocess a source file
+product_a_type_1.cpp.i:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_a_type_1.cpp.i
+.PHONY : product_a_type_1.cpp.i
+
+product_a_type_1.s: product_a_type_1.cpp.s
+
+.PHONY : product_a_type_1.s
+
+# target to generate assembly for a file
+product_a_type_1.cpp.s:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_a_type_1.cpp.s
+.PHONY : product_a_type_1.cpp.s
+
+product_a_type_2.o: product_a_type_2.cpp.o
+
+.PHONY : product_a_type_2.o
+
+# target to build an object file
+product_a_type_2.cpp.o:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_a_type_2.cpp.o
+.PHONY : product_a_type_2.cpp.o
+
+product_a_type_2.i: product_a_type_2.cpp.i
+
+.PHONY : product_a_type_2.i
+
+# target to preprocess a source file
+product_a_type_2.cpp.i:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_a_type_2.cpp.i
+.PHONY : product_a_type_2.cpp.i
+
+product_a_type_2.s: product_a_type_2.cpp.s
+
+.PHONY : product_a_type_2.s
+
+# target to generate assembly for a file
+product_a_type_2.cpp.s:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_a_type_2.cpp.s
+.PHONY : product_a_type_2.cpp.s
+
+product_b_type_1.o: product_b_type_1.cpp.o
+
+.PHONY : product_b_type_1.o
+
+# target to build an object file
+product_b_type_1.cpp.o:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_b_type_1.cpp.o
+.PHONY : product_b_type_1.cpp.o
+
+product_b_type_1.i: product_b_type_1.cpp.i
+
+.PHONY : product_b_type_1.i
+
+# target to preprocess a source file
+product_b_type_1.cpp.i:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_b_type_1.cpp.i
+.PHONY : product_b_type_1.cpp.i
+
+product_b_type_1.s: product_b_type_1.cpp.s
+
+.PHONY : product_b_type_1.s
+
+# target to generate assembly for a file
+product_b_type_1.cpp.s:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_b_type_1.cpp.s
+.PHONY : product_b_type_1.cpp.s
+
+product_b_type_2.o: product_b_type_2.cpp.o
+
+.PHONY : product_b_type_2.o
+
+# target to build an object file
+product_b_type_2.cpp.o:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_b_type_2.cpp.o
+.PHONY : product_b_type_2.cpp.o
+
+product_b_type_2.i: product_b_type_2.cpp.i
+
+.PHONY : product_b_type_2.i
+
+# target to preprocess a source file
+product_b_type_2.cpp.i:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_b_type_2.cpp.i
+.PHONY : product_b_type_2.cpp.i
+
+product_b_type_2.s: product_b_type_2.cpp.s
+
+.PHONY : product_b_type_2.s
+
+# target to generate assembly for a file
+product_b_type_2.cpp.s:
+	$(MAKE) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/product_b_type_2.cpp.s
+.PHONY : product_b_type_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +321,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AbstractFactory"
+	@echo "... concrete_factory_a.o"
+	@echo "... concrete_factory_a.i"
+	@echo "... concrete_factory_a.s"
+	@echo "... concrete_factory_b.o"
+	@echo "... concrete_factory_b.i"
+	@echo "... concrete_factory_b.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... product_a_type_1.o"
+	@echo "... product_a_type_1.i"
+	@echo "... product_a_type_1.s"
+	@echo "... product_a_type_2.o"
+	@echo "... product_a_type_2.i"
+	@echo "... product_a_type_2.s"
+	@echo "... product_b_type_1.o"
+	@echo "... product_b_type_1.i"
+	@echo "... product_b_type_1.s"
+	@echo "... product_b_type_2.o"
+	@echo "... product_b_type_2.i"
+	@echo "... product_b_type_2.s"
 .PHONY : help
 
 

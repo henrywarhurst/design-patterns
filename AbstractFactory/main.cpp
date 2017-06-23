@@ -15,10 +15,18 @@
  *
  * =====================================================================================
  */
+#include "concrete_factory_a.h"
+#include "concrete_factory_b.h"
 #include <iostream>
 
 int main() 
 {
-    std::cout << "HI!" << std::endl;
+	ConcreteFactoryA concreteFactoryA;
+	concreteFactoryA.createProductA();
+	concreteFactoryA.createProductB();
+
+	ConcreteFactoryB concreteFactoryB;
+	concreteFactoryB.createProductA();
+	concreteFactoryB.createProductB();
     return 0;
 }
