@@ -14,11 +14,16 @@ ConcreteBuilder1::~ConcreteBuilder1()
 void ConcreteBuilder1::buildPartA()
 {
 	std::cout << "ConcreteBuilder1 is building PartA!" << std::endl;
+	result_.addPart("part a");
 }
 
 void ConcreteBuilder1::buildPartB()
 {
 	std::cout << "ConcreteBuilder1 is building PartB!" << std::endl;
+	result_.addPart("part b");
 }
 
-
+Product1 ConcreteBuilder1::getResult()
+{
+	return result_;
+}

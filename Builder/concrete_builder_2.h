@@ -2,6 +2,7 @@
 #define CONCRETE_BUILDER_2_H
 
 #include "builder.h"
+#include "product_2.h"
 
 class ConcreteBuilder2 : public Builder
 {
@@ -11,6 +12,11 @@ class ConcreteBuilder2 : public Builder
 
 		virtual void buildPartA();
 		virtual void buildPartB();
+
+		Product2 getResult();
+
+	private:
+		Product2 result_;
 
 };
 
